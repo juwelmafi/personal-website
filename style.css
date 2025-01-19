@@ -229,6 +229,7 @@ header .nav ul li a:hover{
 }
 .service_cards .card{
   width: 30%;
+  height: 280px;
   border: 1px solid #F9CA0B;
   padding: 10px;
   border-radius: 5px;
@@ -305,6 +306,8 @@ header .nav ul li a:hover{
   color: rgba(128, 128, 128, 0.7);
   margin-top: -15px;
 }
+
+
 
 .box1{
   width: 100%;
@@ -544,10 +547,15 @@ footer{
       .main-content{
         flex-direction: column;
         gap: 30px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
 
       }
       .main-content a{
         width: 75%;
+        text-align: center;
+        margin-right: 20px;
       }
       .content-area{
         width: 90%;
