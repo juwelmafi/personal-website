@@ -325,53 +325,61 @@ header .nav ul li a:hover{
 /* footer */
 
 footer{
-  background-color: rgb(4, 9, 13);
-  color: white;
-  margin-top: 300px;
-  padding: 50px 10px;
+  margin-top: 200px;
+  background-color: #2b2b2b;
+  
 }
-footer .footer-parent{
-  width: 80%;
+.footer_content{
+  border-top: 0.2px solid #2b2b2b;
+  border-bottom: 0.2px solid #2b2b2b;
+  padding-top: 80px;
+  padding-bottom: 80px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
   margin: 0 auto;
 }
-footer .footer-parent .foot p{
-  color: rgba(255, 255, 255, 0.5);
-  line-height: 25px;
+
+.footer_desc{
+  width: 20%;
+}
+
+.footer_desc p{
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-top: 5px;
+}
+.footer_desc .f_title{
+  color: #797C86;
   font-size: 14px;
 
 }
-.about{
-
-}
-.footer-parent .foot input{
-  font-size: 15px;
-  outline: none;
-  border: none;
-  padding: 10px 150px 10px 10px;
-}
-.footer-parent .foot button{
-  font-size: 18px;
-  color: white;
-  background-color: #62bdfc;
-  outline: none;
-  border: none;
-  cursor: pointer;
-  padding: 8px 15px;
-  margin-left: -5px;
-}
-.footer-parent .foot i{
-  font-size: 15px;
-  cursor: pointer;
-  padding: 2px 5px;
 
 
+.bottom_footer{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  color: #797C86;
+  font-size: 10px;
+  padding: 30px 0px;
 }
-.footer-parent .foot i:hover{
-  color: #62bdfc;
-  transition:  all 0.2s ease;
-} 
+.left_content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.part_1{
+  border-right: 1px solid #2b2b2b;
+  padding-right: 10px;
+}
+
+
+
 
 /* responsive */
 
@@ -541,31 +549,22 @@ footer .footer-parent .foot p{
         font-size: 2rem;
       }
     
-  footer{
-    width: 100%;
-    padding: 0;
-  }
+ 
+  /* Footer */
 
-  .footer-parent{
-    flex-direction: column;
-    width: 100%;
+  .footer_desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
   }
-  .price-parent .item1{
+  .footer_content{
+    flex-direction: column;
+  }
+  footer{
     margin-top: 50px;
   }
-
-  .foot .foot-p{
-    width: 100%;
-  }
-  .footer-parent .news button{
-    margin-left: 0px;
-    
-  }
-  .foot input{
-
-    width: 100%;
-  }
-  
 
 
 
