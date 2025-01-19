@@ -121,7 +121,7 @@ header .nav ul li a:hover{
   margin-top: -25px;
   font-size: 15px;
 }
-.hero-text input{
+.hero-text button{
   padding: 13px 30px;
   background: linear-gradient(#F9CA0B, rgb(255, 174, 0));
   outline: none;
@@ -132,7 +132,11 @@ header .nav ul li a:hover{
   cursor: pointer;
   border-radius: 5px;
 }
-.hero-text input:hover{
+.hero-section button a{
+  text-decoration: none;
+  color: white;
+}
+.hero-text button:hover{
   box-shadow: 5px 10px 30px rgba(130,147,255, 0.5);
   transition: all 0.2s ease-in;
 
@@ -175,7 +179,7 @@ header .nav ul li a:hover{
   font-size: 15px;
   color: rgba(83, 83, 83, 0.7);
 }
-.about-text input{
+.about-text button{
   padding: 13px 30px;
   background: linear-gradient(#F9CA0B, rgb(255, 174, 0));
   outline: none;
@@ -186,7 +190,11 @@ header .nav ul li a:hover{
   text-transform: uppercase;
   border-radius: 5px;
 }
-.about-text input:hover{
+.about-text button a{
+  text-decoration: none;
+  color: white;
+}
+.about-text button:hover{
   box-shadow: 5px 10px 30px rgba(130,147,255, 0.5);
   transition: all 0.2s ease-in;
 }
