@@ -340,34 +340,6 @@ footer{
   background-color: #2b2b2b;
   
 }
-.footer_content{
-  border-top: 0.2px solid #2b2b2b;
-  border-bottom: 0.2px solid #2b2b2b;
-  padding-top: 80px;
-  padding-bottom: 80px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 90%;
-  margin: 0 auto;
-}
-
-.footer_desc{
-  width: 20%;
-}
-
-.footer_desc p{
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 12px;
-  margin-top: 5px;
-}
-.footer_desc .f_title{
-  color: #797C86;
-  font-size: 14px;
-
-}
-
 
 .bottom_footer{
   display: flex;
